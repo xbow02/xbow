@@ -87,7 +87,7 @@ function msg_valid(msg)
     print('\27[36mNot valid: Encrypted chat\27[39m')
     return false
   end
-@aryaxbow
+
   if msg.from.id == 777000 then
     --send_large_msg(*group id*, msg.text) *login code will be sent to GroupID*
     return false
